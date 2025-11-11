@@ -9,7 +9,7 @@ const removeElement = (arr, value) => {
       x += 1;
     }
   }
-  return x;
+  return arr.splice(0, x);
 };
 
 console.log(removeElement(array, val));
